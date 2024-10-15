@@ -3,6 +3,63 @@
 /* Global styles */
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-/* End global styles */
+  }
+  .contact-section{
+    background: #F1F1F1;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+  }
+  .contact-content {
+    display: flex;
+  }
+  .contact-left-side {
+    flex-basis: 60%;
+  }
+  .contact-right-side{
+    flex-basis: 40%;
+    padding: 20px 30px;
+    border-radius: 5px;
+  
+  }
+  .contact-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  .contact-form-text{
+    display: block;
+    width: 100%; 
+    border-radius: 6px;
+    background: #D9D9D9;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #000; 
+  }
+  /* contact btn */
+  .btn-container{
+    display: flex;
+  }
+  .contact-form-btn{
+    justify-content: center;
+    width: 354px;
+    height: 69px;
+    border-radius: 10px;
+    background: #8389e0;
+    border: none;
+    margin: 20px auto;
+  }
+  
+  
+  
+  
+  
+  
